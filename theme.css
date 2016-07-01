@@ -1,4 +1,3 @@
-<style type="text/css">
 .form-style-1 p{
     margin:10px auto;
     max-width: 400px;
@@ -49,10 +48,10 @@ select{
 .form-style-1 input[type=email]:focus,
 .form-style-1 textarea:focus, 
 .form-style-1 select:focus{
-    -moz-box-shadow: 0 0 8px #996699;
-    -webkit-box-shadow: 0 0 8px #996699;
-    box-shadow: 0 0 8px #996699;
-    border: 1px solid #996699;
+    -moz-box-shadow: 0 0 8px #FF0000;
+    -webkit-box-shadow: 0 0 8px #FF0000;
+    box-shadow: 0 0 8px #FF0000;
+    border: 3px solid #FF0000;
 }
 .form-style-1 .field-divided{
     width: 15%;
@@ -70,13 +69,13 @@ select{
 
 }
 .form-style-1 input[type=submit], .form-style-1 input[type=button]{
-    background: #996699;
+    background: #FF4C3B;
     padding: 8px 15px 8px 15px;
     border: none;
     color: #fff;
 }
 .form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
-    background: #4691A4;
+    background: #FF4C3B;
     box-shadow:none;
     -moz-box-shadow:none;
     -webkit-box-shadow:none;
@@ -92,16 +91,17 @@ select{
     width: 40%;
 }
 .ext{
-    width: 5%;
+    width: 13%;
 }
-body {
-    background-color: #CCCCCC;
+#logo_img{
+    background-color: #007a52;
+    padding:3%;
 }
 textarea:focus, input:focus{
     outline: none;
 }
 h1{
-    font: 100% "Impact", sans-serif;
+    font: 100% "Lucida Sans Unicode", sans-serif;
     color: #000000;
 }
 .labels{
@@ -110,11 +110,18 @@ h1{
         color: #000000;
 }
 .field-divided, .DOBMonth, .DOBDay, .year, .nationality, .year, .citizenship, .address, .country, .zip_code, .ext, .work_phone, .work_email, .work_name, .social{
-    background-color: #006699;
+    background-color: #FFFFFF;
 }
 .year{
     width: 10%;
 }
 .citizenship{
-    width: 20%;
+    width: 25%;
+}
+.header{
+    text-align:center;
+    bottom:0px;
+    height:30px;
+    font-family: "Comic Sans", "Lucida Grande", sans-serif;
+    color: #FFFFFF;
 }
